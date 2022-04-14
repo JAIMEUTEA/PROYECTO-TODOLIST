@@ -9,37 +9,40 @@
 </head>
 <body>
     <main>
-        <div class="contenedor"> 
+    <div class="contenedor"> 
             <div class="caja_trasera">
                 <div class="caja_login">
                     <h3>¿Ya tienes una cuenta?</h3>
                     <p>inicia secion para acceder a nuestros beneficios</p>
-                    <button id="login">Inicia Secion</button>
+                    <button id="iniciar">Inicia Sesion</button>
                 </div>
                 
                     <div class="caja_registro">
                         <h3>¿Ya te registraste?</h3>
                         <p>registrate para acceder a nuestros beneficios</p>
-                        <button id="login">registrate</button>
+                        <button id="registro">registrate</button>
                     </div>
             </div>
-        </div>
-            <div class = "contenedor  login">
-                <form action=""class = "formulario">
-                    <h2>inicia sesion</h2>
-                    <input type="text"placeholder="correo electronico">
-                    <input type="contraseña"placeholder ="contraseña">
-                    <button>entrar</button>
-                </form>
-                <form action="" class ="formulario registro"></form>
+    
+        <div class = "contenedor_login">
+            <form action=""class = "formulario_login">
+                <h2>inicia sesion</h2>
+                <input type="text"placeholder="correo electronico">
+                <input type="contraseña"placeholder ="contraseña">
+                <button>entrar</button>
+            </form>
+            <form action="" class ="formulario_registro">
                 <h2>registrarse</h2>
                 <input type="text"placeholder="nombre completo">
                 <input type="text"placeholder="correo electronico">
                 <input type="text"placeholder = "usuario">
-                <input type="text" placeholder = "contraseña">
+                <input type="password"placeholder = "contraseña">
                 <button>registrarse</button>
-            </div>
-        </div> 
+            </form>
+        </div>
+            
+    </div>
     </main>
+    <script src="script.js"></script>
 </body>
 </html>
