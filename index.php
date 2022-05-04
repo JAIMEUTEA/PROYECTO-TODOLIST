@@ -35,12 +35,12 @@
                 <input type="contraseña"placeholder ="contraseña">
                 <button>entrar</button>
             </form>
-            <form action="" class ="formulario_registro">
+            <form action="registro_usuario.php" method ="POST"class ="formulario_registro">
                 <h2>registrarse</h2>
-                <input type="text"placeholder="nombre completo">
-                <input type="text"placeholder="correo electronico">
-                <input type="text"placeholder = "usuario">
-                <input type="password"placeholder = "contraseña">
+                <input type="text"placeholder="nombre completo" name="nombre">
+                <input type="text"placeholder="correo electronico" name="correo">
+                <input type="text"placeholder = "usuario" name="usuario">
+                <input type="password"placeholder = "contraseña" name ="contrasena">
                 <button>registrarse</button>
             </form>
         </div>
