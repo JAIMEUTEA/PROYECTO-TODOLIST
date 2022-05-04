@@ -17,7 +17,7 @@ if($ejecutar){
     echo '
         <script>
             alert("Usuario almacenado exitosamente");
-            window.location="index.php";
+            window.location="todolist.php";
         </script>';
     }else{
         echo'
