@@ -3,7 +3,8 @@
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
-    font-family: sans-serif;
+    font-family: 'Bangers', cursive;
+font-family: 'Roboto Mono', monospace;
 }
 body {
     background-image: url(../imagenes/body.jpg);
@@ -58,7 +59,7 @@ font-size: 26px;
 }
 .caja_trasera button:hover{
     background:#fff;
-    color:rgba(0,128,255,1);
+    color:rgba(0,128,255,0.3);
 }
 /*formulario*/
 .contenedor_login{
